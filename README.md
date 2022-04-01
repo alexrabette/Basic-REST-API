@@ -1,5 +1,25 @@
 # Basic-REST-API
 A basic REST API  -- uses GET, POST, PUT, and DELETE.
+To run (Visual studio code).... you will need
+-VS Code, nodejs, expressjs, and sqlite3
+-A few commands to run!
+Intsalling node:
+in the terminal ---> type in npm install -g npm
+Installing express: npm install express --save
+
+SQLITE:
+npm install sqlite3
+Then, in the terminal, type in
+sqlite3 mydatabase.db
+then... .read init_db.sql
+
+Now the database is connected to the application, and you're ready to go!
+To make requests easier, you can go to hopescotch.io.
+
+In the terminal, type in node index.js....
+then begin making requests once the program says REST API listening on port 3000, database is connected!
+All routes begin with localhost:3000/api/
+
 -------------------------------------------------------------------------------------------------------
 NAME: ALEXANDER RABETTE
 COURSE: CSC342
